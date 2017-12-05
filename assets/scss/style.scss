@@ -2,7 +2,7 @@ div{
 	text-align:center
 }
 
-.ex{
+.ex,.ex5{
 	margin-top:100px
 }
 
@@ -15,15 +15,19 @@ div{
 	background-color: red;
 
 }
-.row > div:not(.ex5 > *){
+
+.ex .row > div{
 	border:1px solid rgba(0,0,0,0.5);
 }
+
 .ex h2{
 	margin-bottom:75px;
 }
+
 .ex5{
 	margin-bottom:300px;
 }
+
 .color {
 	background-color: #EEE;
 	font-size:14px;
@@ -33,6 +37,7 @@ div{
 	white-space:nowrap;
 	overflow:hidden;
 }
+
 .ex5 .row:not(.notpad){
 	padding-bottom:25px;
 }

@@ -1,0 +1,41 @@
+div{
+	text-align:center
+}
+
+.ex{
+	margin-top:100px
+}
+
+.first-row{
+
+	background-color: #DDD
+}
+
+.red {
+	background-color: red;
+
+}
+.row > div:not(.ex5 > *){
+	border:1px solid rgba(0,0,0,0.5);
+}
+.ex h2{
+	margin-bottom:75px;
+}
+.ex5{
+	margin-bottom:300px;
+}
+.color {
+	background-color: #EEE;
+	font-size:14px;
+	height:50px;
+	border:1px solid rgba(0,0,0,0.5);
+	line-height:50px;
+	white-space:nowrap;
+	overflow:hidden;
+}
+.ex5 .row:not(.notpad){
+	padding-bottom:25px;
+}
+.pad {
+	padding-bottom:25px;
+}
